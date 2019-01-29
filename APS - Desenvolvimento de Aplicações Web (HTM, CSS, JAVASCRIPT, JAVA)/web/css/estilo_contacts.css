@@ -1,0 +1,257 @@
+/*CORE STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+/*---------------------HEADER---------------------*/
+.flex{
+    grid-column: 1/3;
+    background: #1B1D1E;
+    color: #FF6600;
+}
+
+.header-footer-contents{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    height: 50px;
+    padding: 0px 3px;
+}
+
+.logo{
+    margin-top: 16px;
+    margin-left: 3px;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+#title{
+    margin: auto;
+    font-size: 1.5em;
+    font-family: cursive, 'Times New Roman', Times, serif;
+}
+
+#user {
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.panel{
+    display: grid;
+    grid-template-rows: 30px auto;
+}
+
+.panel-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c13b00;
+    color: palegreen;
+}
+
+.panel-header a{
+    color: palegreen;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.9em;
+}
+
+/*---------------------CONTATOS------------------------------*/
+.sidebar{
+    background: #c13b00;
+}
+
+.lista-contatos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    height: 100vh;
+    overflow: auto;
+}
+
+.item-lista{
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 5px solid #1B1D1E;
+    padding: 5px;
+    background: #FF6F49;
+    color: #1B1D1E;
+
+}
+
+.css-form-contatos{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.css-campo{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.css-data{
+    font-size: 1.5em;
+    margin-left: 5px;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+
+.js-show-contatos h1 {
+    font-family: cursive, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+
+}
+
+.css-form-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-buttons{
+    color: #FFF;
+    text-decoration: none;
+    padding: 3px 39px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.js-fav{
+    background-color: #F2CF66;
+    border-bottom: 5px solid #D1B358;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.css-fav{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.css-faved{
+    color: yellow;
+    margin-left: 10px;
+}
+
+.js-edit{
+    background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+}
+
+.js-update{
+    background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+}
+
+.js-del{
+    background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.js-buttons:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.js-form-inputs input[type="text"]{
+    border: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 90%;
+    margin: 1em;
+}
+
+/*-------------------- MENU ADICIONAR ------------------------*/
+.add-contato-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    border: 1px solid black;
+    background: antiquewhite;
+}
+
+.add-contato-form h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.css-add-contato-campo{
+    border: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 90%;
+    margin: 1em;
+
+}
+
+.css-add-btn{
+    color: white; 
+    background: red;
+    cursor: pointer;
+ }
+
+
+#map{
+    width: 900px;
+    height: 103vh;
+}
+
+.main{
+    background: brown;
+}
+
+.footer {
+	grid-column-start: 1;
+	grid-column-end:   3;
+}
+
+.quiet{
+    display: none !important;
+}
+
+.editando {
+    background-color:rgb(255,253,210);  
+    width: 100%;
+    padding: 5px;
+    margin: -5px;
+}
+
+

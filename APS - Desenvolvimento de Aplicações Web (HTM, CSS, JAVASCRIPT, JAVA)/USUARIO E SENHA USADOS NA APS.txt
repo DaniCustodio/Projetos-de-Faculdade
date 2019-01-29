@@ -1,0 +1,4 @@
+Usuario e senha usados na APS
+
+Usuario: aluno
+Senha: 12345

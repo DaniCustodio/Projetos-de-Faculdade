@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo_login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+     integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    <section id="login-box">
+        <img id="avatar" src="imagens/avatar1.png" alt="">
+        <h1>Login</h1>
+        <form action="loginController" method="post" name="form-login">
+            <span class="fas fa-user"></span>
+            <input type="text" name="username" placeholder="Usuário">
+            <span class="fas fa-lock"></span>
+            <input type="password" name="password" placeholder="Senha">
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>
