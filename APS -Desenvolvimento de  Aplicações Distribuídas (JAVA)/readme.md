@@ -1,7 +1,9 @@
 # Atividade Prática Surpevisionada
 
 **Prof:** Jorge Doria
+
 **Disciplina:** Desenvolvimento de Apicações Distribuídas
+
 **Semestre:** 6ª Semestre - 2018.2
 
 ## Sistema de Sincronização de Arquivos
