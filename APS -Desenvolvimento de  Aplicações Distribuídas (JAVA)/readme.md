@@ -1,20 +1,20 @@
-# Atividade Prática Surpevisionada
+# Atividade PrÃ¡tica Surpevisionada
 
 **Prof:** Jorge Doria
-**Disciplina:** Desenvolvimento de Apicações Distribuídas
-**Semestre:** 6ª Semestre - 2018.2
+**Disciplina:** Desenvolvimento de ApicaÃ§Ãµes DistribuÃ­das
+**Semestre:** 6Âª Semestre - 2018.2
 
-##Sistema de Sincronização de Arquivos
+## Sistema de SincronizaÃ§Ã£o de Arquivos
 
 ### Objetivo
-Desenvolver um cliente e um servidor que permita a sincronização e transferência de 
-arquivos (downloads e uploads). O servidor terá que responder a múltiplos pedidos 
-por parte de diversos clientes. Cliente e servidor terão de ter capacidade de 
-efetuar uploads e downloads em simultâneo.
+Desenvolver um cliente e um servidor que permita a sincronizaÃ§Ã£o e transferÃªncia de 
+arquivos (downloads e uploads). O servidor terÃ¡ que responder a mÃºltiplos pedidos 
+por parte de diversos clientes. Cliente e servidor terÃ£o de ter capacidade de 
+efetuar uploads e downloads em simultÃ¢neo.
 
-Desenvolva um programa de sincronização de arquivos entre computadores. 
-O programa deve comparar dois diretórios localizando os arquivos que têm em um e 
-não têm no outro computador para realizar a sincronização. Caso um arquivo esteja 
-em ambos diretórios, o mais recente deve prevalecer em ambas máquinas. O programa 
-deve ter uma opção que permita ao usuário interagir no processo de sincronização, 
-ou seja, decidir se um arquivo vai mesmo ser copiado de uma máquina para outra.
+Desenvolva um programa de sincronizaÃ§Ã£o de arquivos entre computadores. 
+O programa deve comparar dois diretÃ³rios localizando os arquivos que tÃªm em um e 
+nÃ£o tÃªm no outro computador para realizar a sincronizaÃ§Ã£o. Caso um arquivo esteja 
+em ambos diretÃ³rios, o mais recente deve prevalecer em ambas mÃ¡quinas. O programa 
+deve ter uma opÃ§Ã£o que permita ao usuÃ¡rio interagir no processo de sincronizaÃ§Ã£o, 
+ou seja, decidir se um arquivo vai mesmo ser copiado de uma mÃ¡quina para outra.
